@@ -1,6 +1,6 @@
 # Sanctum
 
-This is simple project that uses qiling framework to emulate a binary, a custom class to tainted data and record operations on it, and triton to build the ast and simplify it. 
+This is simple project that uses qiling framework to emulate a binary, a custom class to taint data and record operations on it, and triton to build the ast and simplify it. 
 The project have very good performance and can be used to analyze big obfuscated binaries.
 Only few instructions are supported, but it's easy to add new ones.
 
