@@ -186,7 +186,8 @@ class _SymData(object):
             self.sym.ast_value = self.sym.ast_value + second_value
             
         return self
-            
+       
+    @instruction     
     def __mul__(self, second_value):
         if isinstance(second_value, _SymData):
             self.sym.ast_value = self.sym.ast_value * second_value.sym.ast_value
